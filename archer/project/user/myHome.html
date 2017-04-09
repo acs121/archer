@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../common/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="//res.layui.com/layui/build/css/layui.css"  media="all">
+        <link rel="stylesheet" type="text/css" href="css/myHome.css">
+    </head>
+    <body>
+    	<!-- 导航 -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="myHome.html" class="brand-logo">爱问卷</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a id="nickName"></a>
+                <ul class="collection">
+                  <li class="collection-item" id="recycle">回收站</li>
+                  <li class="collection-item" id="quit">退出</li>
+                </ul>
+              </li>
+              <li><a> </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+      	<div class="row">
+	        <div class="col s4">
+	          <div class="card  darken-1">
+	            <div class="card-content white-text newAdd">
+	              <i class="medium material-icons addButton">library_add<span class="warn">新建问卷</span></i>
+	            </div>
+	          </div>
+	        </div>
+      	</div>
+      </div>
+      <div class="modalDel">
+        <a class="waves-effect waves-light btn" id="question-delete-yes">是</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="waves-effect waves-light btn" id="question-delete-no">否</a>
+      </div>
+      <div class="recycleDelete">
+        <a class="waves-effect waves-light btn" id="recycle-delete-yes">是</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="waves-effect waves-light btn" id="recycle-delete-no">否</a>
+      </div>
+      <div class="recoverModal">
+        <a class="waves-effect waves-light btn" id="recover-yes">是</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="waves-effect waves-light btn" id="recover-no">否</a>
+      </div>
+      <div class="recycle">
+        <table class="bordered striped centered">
+          <thead>
+            <tr>
+                <th>问卷名</th>
+                <th>彻底删除</th>
+                <th>恢复问卷</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+          <tfoot >
+            <tr>
+              <td colspan="3" style="text-align: center;"></td>
+            </tr>
+          </tfoot>
+      </table>
+      </div>
+    </body>
+    <script type="text/javascript" src="../common/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../common/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../common/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../common/layer/layer.js"></script>
+    <script type="text/javascript" src="../common/js/common.js"></script>
+    <script type="text/javascript" src="js/myHome.js"></script>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../common/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/question.css">
+    </head>
+    <body>
+    	<!-- 导航 -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="myHome.html" class="brand-logo">爱问卷</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a id="nickName"></a>
+                <ul class="collection">
+                  <li class="collection-item" id="quit">退出</li>
+                </ul>
+              </li>
+              <li><a> </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!-- 常用题型 -->
+          <div class="collection" id="titleType">
+            <a class="collection-item" id="radioTopic">单选题</a>
+            <a class="collection-item" id="checkboxTopic">多选题</a>
+            <a class="collection-item" id="essayQuestion">问答题</a>
+          </div>
+          <div class="col s12">
+            <div class="card blue-grey darken-1" id="card">
+              <div class="card-content">
+                <div class="questionTitle">
+                  <p class="card-title" contenteditable="true" id="questionTitle" placeholder="你的问卷题目"></p>
+                  <p contenteditable="true" id="questionDescription" placeholder="你可以加一些问卷的描述"></p>
+                </div>
+                <div id="content">
+                  <div class="question">
+                    <div class="child">
+                      <input type="hidden" value="1">
+                      <span class="sort">1</span>
+                      <p class="childTitle" contenteditable="true" style="margin-left: 25px;" placeholder="单选题"></p>
+                    </div>
+                    <ul class="anwserSelect">
+                      <li>
+                        <div class="selectMake">
+                          <i class="small material-icons down">call_received<span class='warn'>向下移动</span></i>
+                          <i class="small material-icons up">call_made<span class='warn'>删除选项</span></i>
+                          <i class="small material-icons selectDel">no_sim<span class='warn'>向上移动</span></i>
+                        </div>
+                        <input type="radio" name="radio-one" id="radio1"/>
+                        <label for="radio1" style="float: left;"></label><p contenteditable="true" class="selectContent" style="margin-left: 25px;" placeholder="选项"></p>
+                      </li>
+                      <li>
+                        <div class="selectMake">
+                          <i class="small material-icons down">call_received<span class='warn'>向下移动</span></i>
+                          <i class="small material-icons up">call_made<span class='warn'>删除选项</span></i>
+                          <i class="small material-icons selectDel">no_sim<span class='warn'>向上移动</span></i>
+                        </div>
+                        <input type="radio" name="radio-one" id="radio2" />
+                        <label for="radio2" style="float: left;"></label><p contenteditable="true" class="selectContent" style="margin-left: 25px;" placeholder="选项"></p>
+                      </li>
+                    </ul>
+                    <div class="iconText">
+                      <i class="small material-icons addSelect">note_add<span class="warn">添加选项</span></i>
+                      <i class="small material-icons questionDel">no_sim<span class="warn">删除问题</span></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 功能按钮 -->
+          <div class="collection" id="funtion">
+            <a class="collection-item" id="drag">拖动排序</a>
+            <a class="collection-item" id="resetDrag">取消拖动</a>
+            <a class="collection-item" id="submit">提交问卷</a>
+            <a class="collection-item" id="submit">发布问卷</a>
+          </div>
+          <!-- 提示框 -->
+          <div class="modalDel">
+            <a class="waves-effect waves-light btn" id="question-delete-yes">是</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="waves-effect waves-light btn" id="question-delete-no">否</a>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script type="text/javascript" src="../common/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../common/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../common/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../common/layer/layer.js"></script>
+    <script type="text/javascript" src="../common/js/easy.js"></script>
+    <script type="text/javascript" src="../common/js/common.js"></script>
+    <script type="text/javascript" src="js/question.js"></script>
+</html>

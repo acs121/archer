@@ -1,0 +1,67 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-02 16:32:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-07 16:30:32
+*/
+.container {
+	width: 50%;
+	margin-top: 50px;
+}
+
+.discribe {
+	font-size: 18px;
+}
+
+.discribe span {
+	color: #B38080;
+}
+
+.link div {
+	margin-top: 40px;
+}
+
+.qrcode {
+	margin-top: 40px;
+}
+
+.qrcode div {
+	margin-top: 20px;
+}
+
+.link div input {
+	border-bottom: none;
+	border:solid 2px #BBB6B6;
+	border-radius: 3px;
+	width: 60%;
+	height: 30px;
+}
+
+.link div a {
+	margin-left: 20px;
+	height: 35px;
+	background: #F6A4A4;
+}
+
+.link div a:hover {
+	background: #F38E8E;
+}
+
+.nav-wrapper .collection {
+	display: none;
+}
+
+#quit {
+	color: #EAA2A2;
+	cursor: pointer;
+}
+
+#quit:hover:after {
+	background: #FFF;
+	color: #EAA2A2;
+}
+
+#quit:hover {
+	background: #F1C7C7;
+	color: #FFF;
+}

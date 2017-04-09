@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../common/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/form.css">
+    </head>
+    <body>
+    <!-- 导航 -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">爱问卷</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a id="login">进入后台</a></li>
+              <li><a id="login"> </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    <!-- 登陆注册 -->
+      <div id="loginPopup">
+        <div class="authCode">
+          <div class="authCodeImg">
+            <img src="http://localhost/archer/codeImg?type=loginCode">
+          </div>
+        </div>
+        <div class="logincontainer">
+          <div class="backbox">
+            <div class="loginMsg">
+              <div class="textcontent">
+                <p class="title">没有一个账户吗？</p>
+                <p>请点击注册</p>
+                <button id="switch1">注册</button>
+              </div>
+            </div>
+            <div class="signupMsg visibility">
+              <div class="textcontent">
+                <p class="title">已经有一个账户了？</p>
+                <p>请点击登陆</p>
+                <button id="switch2">登陆</button>
+              </div>
+            </div>
+          </div>
+          <div class="frontbox">
+            <div class="login">
+              <h2>登陆</h2>
+              <div class="inputbox">
+                <input type="text" name="email" placeholder="  邮箱" id="email-one">
+                <input type="password" name="password" placeholder="  密码" id="password-one">
+                <input type="text" name="authCode" placeholder="  验证码" id="authcode-one">
+              </div>
+              <p>忘记密码?</p>
+              <button id="userLogin">登陆</button>
+            </div>
+            <div class="signup hide">
+              <h2>注册</h2>
+              <div class="inputbox">
+                <input type="text" name="fullname" placeholder="  昵称" id="nikename">
+                <input type="text" name="email" placeholder="  邮箱" id="email-two">
+                <input type="password" name="password" placeholder="  密码" id="password-two">
+                <input type="text" name="authCode" placeholder="  验证码" id="authcode-two">
+              </div>
+              <button id="register">注册</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 主体页面 -->
+      <div class="contenedor">
+        <form>
+          <input type="radio" id="Slide1" name="slider" titulo="Relacionamento" autofocus="autofocus" checked="checked"/>
+          <input type="radio" id="Slide2" name="slider" titulo="Portfolio"/>
+          <input type="radio" id="Slide3" name="slider" titulo="Alta Velocidade"/>
+          <input type="radio" id="Slide4" name="slider" titulo="Instalações"/>
+          <input type="radio" id="Slide5" name="slider" titulo="Responsabilidade"/>
+          <div class="labels">
+            <label for="Slide1" id="Slide1" class="Slide">
+              <div class="content">
+                <h1><strong>欢迎来到爱问卷</strong></h1>
+              </div>
+            </label>
+            <label for="Slide2" id="Slide2" class="Slide">
+              <div class="content">
+                <h1>Portfólio diversificado de produtos e serviços</h1>
+                <div class="block">
+                  <span>
+                    <b>Outbound</b>
+                    <br/>Recuperação de Crédito
+                    <br/>Televendas
+                    <br/>Pesquisa de Satisfação
+                    <br/>e mais...
+                  </span>
+                  <span>
+                    <b>Inbound</b>
+                    <br/>Receptivo (SAC)
+                    <br/>Backoffice
+                    <br/>Monitoria de Qualidade
+                    <br/>e mais...
+                  </span>
+                  <span>
+                    <b>Locação de Infra</b>
+                    <br/>Full ou Parcial
+                  </span>
+                 </div>
+              </div>
+            </label>
+            <label for="Slide3" id="Slide3" class="Slide">
+              <div class="content">
+                <h1>Velocidade</h1>
+                <div class="block">
+                  <span>
+                    Alta velocidade nas implantações, mudanças e ampliações
+                  </span>
+                </div>
+              </div>
+            </label>
+            <label for="Slide4" id="Slide4" class="Slide">
+              <div class="content">
+                <h1>Instalações Preparadas</h1>
+                <div class="block">
+                  <span>
+                    <b>Instalações preparadas</b> para receber as operações de nossos clientes com conforto.
+                  </span>
+                </div>
+              </div>
+            </label>
+            <label for="Slide5" id="Slide5" class="Slide">
+              <div class="content">
+                <h1>Responsabilidade Social</h1>
+                <div class="block">
+                  <span>
+                    Responsabilidade Social e Ambiental
+                  </span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </form>
+      </div>
+    </body>
+    <script type="text/javascript" src="../common/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../common/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../common/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../common/layer/layer.js"></script>
+    <script type="text/javascript" src="../common/js/common.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</html>

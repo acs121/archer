@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../common/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="//res.layui.com/layui/build/css/layui.css"  media="all">
+        <link rel="stylesheet" type="text/css" href="css/publish.css">
+    </head>
+    <body>
+    	<!-- 导航 -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="myHome.html" class="brand-logo">爱问卷</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a id="nickName"></a>
+                <ul class="collection">
+                  <li class="collection-item" id="quit">退出</li>
+                </ul>
+              </li>
+              <li><a> </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+      	<div class="link">
+      		<p class="discribe"><span>问卷链接：</span>复制或分享访问链接给他人填写</p>
+      		<div>
+      			<input type="text" id="link">
+      			<a class="waves-effect waves-light btn" id="copy">复制</a>
+      		</div>
+      	</div>
+      	<div class="qrcode">
+      		<p class="discribe"><span>二维码：</span>手机扫码填写问卷</p>
+      		<div>
+      			<div id="code"></div>
+      		</div>
+      	</div>
+      </div>
+    </body>
+    <script type="text/javascript" src="../common/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../common/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="../common/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../common/js/jquery.qrcode.min.js"></script>
+    <script type="text/javascript" src="../common/layer/layer.js"></script>
+    <script type="text/javascript" src="../common/js/common.js"></script>
+    <script type="text/javascript" src="js/publish.js"></script>
+</html>

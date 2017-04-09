@@ -1,0 +1,204 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-21 19:57:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-07 16:28:09
+*/
+#titleType {
+	width: 10%;
+	position: fixed;
+	top:100px;
+	left: 20px;
+}
+
+#funtion {
+	width: 10%;
+	position: fixed;
+	top:100px;
+	right: 20px;
+}
+
+.card-content {
+	background: #FFF;
+	color: #A39E9E;
+	text-align: center;
+}
+
+.container {
+	margin-top: 30px;
+	background: #FFF;
+	width: 60%;
+}
+
+.childTitle {
+	font-size: 20px;
+
+}
+
+#questionTitle:empty:before {
+	content: attr(placeholder);
+	color:#bbb;
+}
+
+#questionTitle:focus:before {
+	content:none;
+}
+
+#questionDescription:empty:before {
+	content: attr(placeholder);
+	color:#bbb;
+}
+
+#questionDescription:focus:before {
+	content:none;
+}
+
+.childTitle:empty:before {
+	content: attr(placeholder);
+	color:#bbb;
+}
+
+.childTitle:focus:before {
+	content:none;
+}
+
+.selectContent:empty:before{
+	content: attr(placeholder);
+	color:#bbb;
+}
+
+.selectContent:focus:before{
+	content:none;
+}
+
+.questionTitle {
+	border-bottom: solid 1px #BAB1B1;
+	padding-bottom: 20px;
+}
+
+.question {
+	text-align: left;
+	margin-top: 20px;
+	padding: 15px;
+	border: solid 1px #BAB1B1;
+	border-radius: 5px;
+}
+
+.selectContent {
+	font-size: 20px;
+	position: relative;
+	bottom: 6px;
+	margin-left: 25px;
+}
+
+#resetDrag {
+	display: none;
+}
+
+.selectMake {
+	display: none;
+	width: 100px;
+	height: 40px;
+	background: rgb(163,158,158);
+	border: solid 1px #FFF;
+	border-radius: 10px;
+	color:#fff;
+	padding-top: 4px;
+	float: right;
+	position: relative;
+	bottom: 50px;
+}
+i {
+	position:relative;
+	z-index:2;
+}
+
+i:hover {
+	cursor: pointer;
+	color:rgb(238,100,115);
+	z-index:3;
+	background:none;
+}
+
+.warn {
+	display: none;
+	color: #FFF;
+	padding: 5px;
+}
+
+i:hover span {
+	display:block;
+	font-size: 15px;
+	position:absolute;
+	top:51px;
+	width:70px;
+	height: 25px;
+	border:1px solid #E5ACAC;
+	background-color:#E5ACAC;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.fillAnwser {
+	border:solid 2px rgb(121,171,254);
+	border-radius: 5px;
+	height: 50px;
+}
+
+.sort {
+	float: left;
+	width: 30px;
+	height: 25px;
+	color: #fff;
+	background: rgb(163,158,158);
+	text-align: center;
+	position: relative;
+	right: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+
+.modalDel {
+	display: none;
+	z-index: 1;
+}
+
+a {
+	cursor: pointer;
+}
+
+body .demo-class1 .layui-layer-content {
+    text-align: center;
+}
+
+body .demo-class1 .layui-layer-content a {
+    position: relative;
+    top: 30px;
+}
+
+.btn {
+	background: #CF9696;
+}
+
+.btn:hover {
+	background: #EF8080;
+}
+
+.nav-wrapper .collection {
+	display: none;
+}
+
+#quit {
+	color: #EAA2A2;
+	cursor: pointer;
+}
+
+#quit:hover:after {
+	background: #FFF;
+	color: #EAA2A2;
+}
+
+#quit:hover {
+	background: #F1C7C7;
+	color: #FFF;
+}

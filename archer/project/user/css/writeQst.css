@@ -1,0 +1,186 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-03 09:56:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-08 16:04:47
+*/
+body {
+	background:#edd3d4 url(//image.sojump.com/images/newbg/Shadingbg.jpg) repeat;
+}
+
+.container {
+	margin-top: 50px;
+	width:60%;
+}
+
+#title {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #EFC5C5;
+}
+
+.card {
+	padding-bottom: 20px;
+}
+
+#title .card-title {
+	color: #F49A9A;
+}
+
+#title p {
+	color: #C3B4B4;
+}
+
+.question {
+	color: #C3B4B4;
+	margin-top: 15px;
+}
+
+.question .childTitle {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.select {
+	margin-top: 20px;
+}
+
+.titleNum {
+	float: left;
+	font-size: 23px;
+	color: #F49A9A;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: #F49A9A;
+}
+
+[type="radio"].with-gap:checked+label:after {
+    border: 2px solid #F49A9A;
+}
+
+.question .fill {
+	margin-top: 15px;
+	height: 50px;
+	border: solid 2px #B9B1B1;
+	border-radius: 3px;
+	overflow-y:auto;
+}
+
+#submit {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#refer {
+	background: #F49A9A;
+}
+
+.string {
+	display: none;
+}
+
+.modalSubmit {
+	display: none;
+	z-index: 1;
+}
+
+body .demo-class1 .layui-layer-content {
+    text-align: center;
+}
+
+body .demo-class1 .layui-layer-content a {
+    position: relative;
+    top: 30px;
+}
+
+.btn {
+	background: #CF9696;
+}
+
+.btn:hover {
+	background: #EF8080;
+}
+
+@media screen and (max-width: 1420px) {
+  .question .childTitle {
+  	font-size: 16px;
+  }
+
+  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+  	font-size: 12px;
+  }
+
+  [type="checkbox"]:not(:checked)+label, [type="checkbox"]:checked+label {
+  	font-size: 12px;
+
+  }
+
+  .titleNum {
+  	font-size: 18px;
+  }
+
+  [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+  	height: 13px;
+  	width: 13px;
+  }
+
+  [type="radio"]+label:before, [type="radio"]:not(.filled-in)+label:after {
+  	height: 13px;
+  	width: 13px;
+  }
+
+	.question .fill {
+		height: 35px;
+	}
+
+	.btn, .btn-large, .btn-flat {
+		padding: 0 15px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.container {
+		margin-top: 0px;
+		width:100%;
+	}
+
+	[type="checkbox"]+label {
+		line-height: 18px;
+	}
+
+  .question .childTitle {
+  	font-size: 16px;
+  }
+
+  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+  	font-size: 12px;
+  	line-height: 20px;
+  }
+
+  [type="checkbox"]:not(:checked)+label, [type="checkbox"]:checked+label {
+  	font-size: 12px;
+  }
+
+  .titleNum {
+  	font-size: 18px;
+  }
+
+  [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+  	height: 13px;
+  	width: 13px;
+  }
+
+  [type="radio"]+label:before, [type="radio"]:not(.filled-in)+label:after {
+  	height: 13px;
+  	width: 13px;
+  }
+
+	.question .fill {
+		height: 35px;
+	}
+
+	.btn, .btn-large, .btn-flat {
+		padding: 0 15px;
+	}
+}
