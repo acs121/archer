@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T01:13:54.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.4" etag="ob-Q7VC56NAois-oHy0_" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T01:37:00.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VDmnBtmSmUaLTPaKLHL3" version="22.0.4" type="github">
   <diagram name="第 1 页" id="azA1Pkqwki4tSz2V3nyo">
-    <mxGraphModel>
+    <mxGraphModel dx="2022" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8l3BvuAPzUP2f6cTjcK8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="304.83333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;拼餐&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8l3BvuAPzUP2f6cTjcK8-2" target="8l3BvuAPzUP2f6cTjcK8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-4" value="发起" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8l3BvuAPzUP2f6cTjcK8-3">
+          <mxGeometry x="-0.1476" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;商家&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-5" value="&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 16px;&quot;&gt;商家设定商品原价与商品拼餐最低价，并设定拼餐降价策略&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-6" value="用户1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-7" value="用户2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-10" value="用户n" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="390" as="sourcePoint" />
+            <mxPoint x="195" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="225" y="240" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-14" value="&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 16px;&quot;&gt;每次拼餐有开始时间节点和结束时间节点，最终拼单价由结束时间价格为准&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="324" y="350" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;拼餐结束&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-19" value="&lt;font color=&quot;#ff8f2e&quot; style=&quot;font-size: 17px;&quot;&gt;拼餐结束时，系统根据用户付款不同，将差额付款退还给用户钱包&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="275" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-20" value="&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 16px;&quot;&gt;用户在拼餐不同时间付款金额不同，但是最终金额以拼餐结束时为准&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="285" width="180" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
