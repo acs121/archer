@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T01:37:00.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VDmnBtmSmUaLTPaKLHL3" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T12:47:43.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="MRCc4cVI0ZzD3fNqrhdd" version="22.0.4" type="github">
   <diagram name="第 1 页" id="azA1Pkqwki4tSz2V3nyo">
     <mxGraphModel dx="2022" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,6 +55,9 @@
         </mxCell>
         <mxCell id="8l3BvuAPzUP2f6cTjcK8-20" value="&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 16px;&quot;&gt;用户在拼餐不同时间付款金额不同，但是最终金额以拼餐结束时为准&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="285" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8l3BvuAPzUP2f6cTjcK8-21" value="&lt;h1&gt;模式优点&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1.在保有订单量的情况下，拼餐价格便宜.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2.商家餐种类更少，出餐更快&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3.平台增加用户积极性&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="450" width="296" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
